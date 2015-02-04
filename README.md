@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-ReclameAqui.reputation("http://company.com")
+ReclameAqui.reputation("http://ricardoeletro.com.br")
 
 ## Contributors
 Pedro Dias( https://github.com/pdf13 )
