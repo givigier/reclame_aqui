@@ -1,6 +1,6 @@
 # ReclameAqui
 
-TODO: Write a gem description
+A gem that verify the reputation of a company in ReclameAqui.
 
 ## Installation
 
@@ -20,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ReclameAqui.reputation("http://company.com")
+
+## Contributors
+Pedro Dias( https://github.com/pdf13 )
 
 ## Contributing
 

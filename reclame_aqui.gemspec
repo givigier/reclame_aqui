@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gabriel@agrid.com.br", "pedro@agrid.com.br"]
   spec.summary       = %q{Company verification in ReclameAqui.}
   spec.description   = %q{A gem that verify the reputation of a company in ReclameAqui.}
-  spec.homepage      = "http://github.com/givigier"
+  spec.homepage      = "https://github.com/givigier/reclame_aqui"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
