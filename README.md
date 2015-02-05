@@ -1,4 +1,5 @@
 # ReclameAqui
+By [Agrid](http://agrid.com.br) | we are [hiring](http://agrid.com.br)
 
 A gem that verify the reputation of a company in ReclameAqui.
 
