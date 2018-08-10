@@ -1,6 +1,6 @@
 # ReclameAqui
 
-A gem that verify the reputation of a company at ReclameAqui(http://reclameaqui.com.br/).
+A gem that verify the reputation of a company on ReclameAqui(http://reclameaqui.com.br/).
 
 ## Installation
 
