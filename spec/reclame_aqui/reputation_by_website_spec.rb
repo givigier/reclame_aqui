@@ -4,32 +4,22 @@ require 'spec_helper'
 
 describe ReclameAqui::ReputationByWebsite do
   context 'when passing an invalid website' do
-    let!(:reclame_aqui) do
-      ReclameAqui::ReputationByWebsite.new('http://').reputation
-    end
-    let!(:error) { reclame_aqui[:error] }
-    let!(:reputation) { reclame_aqui[:reputation] }
-
-    it 'should return a hash with error equal true' do
-      expect(error).to eq true
+    let(:reclame_aqui) do
+      ReclameAqui::ReputationByWebsite.new('http://')
     end
 
-    it 'should return an empty reputation' do
-      expect(reputation).to eq Hash.new({})
+    it 'should raise an InvalidWebsiteException' do
+      expect { reclame_aqui.reputation }
+        .to raise_exception(ReclameAqui::InvalidWebsiteException)
     end
   end
 
   context 'when passing a valid website' do
-    let!(:reclame_aqui) do
+    let(:reclame_aqui) do
       ReclameAqui::ReputationByWebsite
-        .new('http://ricardoeletro.com.br').reputation
+        .new('http://ricardoeletro.com.br')
     end
-    let!(:error) { reclame_aqui[:error] }
-    let!(:reputation) { reclame_aqui[:reputation] }
-
-    it 'should return a hash with error equal false' do
-      expect(error).to eq false
-    end
+    let!(:reputation) { reclame_aqui.reputation }
 
     it 'should return the reputation with id' do
       expect(reputation[:id]).to eq 10708
