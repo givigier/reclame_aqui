@@ -8,7 +8,7 @@ module ReclameAqui
       @website = website
     end
 
-    def get_reputation
+    def reputation
       begin
         response = do_request
         format_response JSON.parse(response.body)

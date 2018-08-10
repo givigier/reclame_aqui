@@ -5,7 +5,7 @@ require 'spec_helper'
 describe ReclameAqui::ReputationByWebsite do
   context 'when passing an invalid website' do
     let!(:reclame_aqui) do
-      ReclameAqui::ReputationByWebsite.new('http://').get_reputation
+      ReclameAqui::ReputationByWebsite.new('http://').reputation
     end
     let!(:error) { reclame_aqui[:error] }
     let!(:reputation) { reclame_aqui[:reputation] }
@@ -22,7 +22,7 @@ describe ReclameAqui::ReputationByWebsite do
   context 'when passing a valid website' do
     let!(:reclame_aqui) do
       ReclameAqui::ReputationByWebsite
-        .new('http://ricardoeletro.com.br').get_reputation
+        .new('http://ricardoeletro.com.br').reputation
     end
     let!(:error) { reclame_aqui[:error] }
     let!(:reputation) { reclame_aqui[:reputation] }
