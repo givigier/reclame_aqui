@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  gem:
+    build: .
+    command: gem build reclame_aqui.gemspec
+    volumes:
+      - .:/reclame_aqui
+volumes:
+  reclame_aqui:
