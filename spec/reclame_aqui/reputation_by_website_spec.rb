@@ -29,7 +29,7 @@ describe ReclameAqui::ReputationByWebsite do
     end
 
     it "should return the reputation with name" do
-      expect(reputation[:name]).to eq "Ricardo Eletro ( Internet )"
+      expect(reputation[:name]).to eq "Ricardo Eletro  - Loja Online"
     end
 
     it "should return the reputation with period" do
