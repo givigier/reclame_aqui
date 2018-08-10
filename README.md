@@ -1,4 +1,7 @@
 # ReclameAqui
+[![Maintainability](https://api.codeclimate.com/v1/badges/904a87ab1f1cc1496f63/maintainability)](https://codeclimate.com/github/givigier/reclame_aqui/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/904a87ab1f1cc1496f63/test_coverage)](https://codeclimate.com/github/givigier/reclame_aqui/test_coverage)
+[ ![Codeship Status for givigier/reclame_aqui](https://app.codeship.com/projects/193ab890-7eca-0136-6d88-72ae497d28e4/status?branch=master)](https://app.codeship.com/projects/301388)
 
 A gem that verify the reputation of a company on ReclameAqui(http://reclameaqui.com.br/).
 
