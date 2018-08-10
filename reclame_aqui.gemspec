@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'A gem that verify the reputation of a company on ReclameAqui.'
   spec.homepage      = 'https://github.com/givigier/reclame_aqui'
   spec.license       = 'MIT'
+  spec.required_ruby_version = Gem::Requirement.new('>= 2.3')
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
