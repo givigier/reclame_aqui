@@ -6,10 +6,10 @@ require 'reclame_aqui/version'
 Gem::Specification.new do |spec|
   spec.name          = "reclame_aqui"
   spec.version       = ReclameAqui::VERSION
-  spec.authors       = ["Gabriel Givigier", "Pedro Dias"]
-  spec.email         = ["gabriel@agrid.com.br", "pedro@agrid.com.br"]
-  spec.summary       = %q{Company verification in ReclameAqui.}
-  spec.description   = %q{A gem that verify the reputation of a company in ReclameAqui.}
+  spec.authors       = ["Gabriel Givigier"]
+  spec.email         = ["gabriel@givigier.com.br"]
+  spec.summary       = %q{Company verification on ReclameAqui.}
+  spec.description   = %q{A gem that verify the reputation of a company on ReclameAqui.}
   spec.homepage      = "https://github.com/givigier/reclame_aqui"
   spec.license       = "MIT"
 
