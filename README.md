@@ -4,7 +4,7 @@
 [ ![Codeship Status for givigier/reclame_aqui](https://app.codeship.com/projects/193ab890-7eca-0136-6d88-72ae497d28e4/status?branch=master)](https://app.codeship.com/projects/301388)
 [![Gem Version](https://badge.fury.io/rb/reclame_aqui.svg)](https://badge.fury.io/rb/reclame_aqui)
 
-A gem that verify the reputation of a company on ReclameAqui(http://reclameaqui.com.br/).
+A gem that verifies the reputation of a company on ReclameAqui(http://reclameaqui.com.br/).
 
 ## Installation
 
@@ -32,7 +32,7 @@ Pedro Dias( https://github.com/pdf13 )
 ## Contributing
 
 1. Fork it ( https://github.com/givigier/reclame_aqui/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
+2. Create your feature branch (`git checkout -b feature/my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
+4. Push to the branch (`git push origin feature/my-new-feature`)
 5. Create a new Pull Request
