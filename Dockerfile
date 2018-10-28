@@ -8,5 +8,5 @@ WORKDIR /reclame_aqui
 
 COPY . .
 
-RUN gem install bundler -v 1.16.3
+RUN gem install bundler -v 1.16.6
 RUN bundle install
