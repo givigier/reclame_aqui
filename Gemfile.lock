@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     reclame_aqui (1.0.0)
-      json (~> 2.1.0)
+      json (>= 2.1, < 2.3)
 
 GEM
   remote: https://rubygems.org/
@@ -33,10 +33,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16.3)
+  bundler (~> 2.0.1)
   reclame_aqui!
   rspec (~> 3.8.0)
   simplecov (~> 0.16.1)
 
 BUNDLED WITH
-   1.16.3
+   2.0.1
