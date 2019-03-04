@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Gabriel Givigier']
   spec.email         = ['gabriel@givigier.com.br']
   spec.summary       = 'Company verification on ReclameAqui.'
-  spec.description   = 'A gem that verify the reputation of a company on ReclameAqui.'
+  spec.description   = 'A gem to verify the reputation of a company on ReclameAqui.'
   spec.homepage      = 'https://github.com/givigier/reclame_aqui'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3')
@@ -20,9 +20,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'json', '~> 2.1.0'
+  spec.add_dependency 'json', '>= 2.1', '< 2.3'
 
-  spec.add_development_dependency 'bundler', '~> 1.16.6'
+  spec.add_development_dependency 'bundler', '~> 2.0.1'
   spec.add_development_dependency 'rspec', '~> 3.8.0'
   spec.add_development_dependency 'simplecov', '~> 0.16.1'
 end

@@ -1,4 +1,4 @@
-FROM ruby:2.3.0-alpine
+FROM ruby:2.4.0-alpine
 
 RUN apk add --update git make g++ bash
 
@@ -8,5 +8,6 @@ WORKDIR /reclame_aqui
 
 COPY . .
 
-RUN gem install bundler -v 1.16.6
-RUN bundle install
+RUN gem install bundler -v 2.0.1
+RUN bundle _2.0.1_ install
+ENV BUNDLER_VERSION=2.0.1
