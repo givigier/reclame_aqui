@@ -1,5 +1,5 @@
 language: ruby
-script: bin/rake
+script: bundle exec rspec spec
 sudo: false
 cache: bundler
 before_install:
