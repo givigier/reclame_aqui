@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'json', '>= 2.1', '< 2.3'
 
-  spec.add_development_dependency 'bundler', '~> 2.0.1'
+  spec.add_development_dependency 'bundler', '~> 2.2.3'
   spec.add_development_dependency 'rspec', '~> 3.8.0'
   spec.add_development_dependency 'simplecov', '~> 0.16.1'
 end
