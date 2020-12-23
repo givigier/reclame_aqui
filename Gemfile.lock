@@ -2,14 +2,14 @@ PATH
   remote: .
   specs:
     reclame_aqui (1.0.0)
-      json (>= 2.1, < 2.3)
+      json (>= 2.1, < 2.6)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
     docile (1.3.1)
-    json (2.1.0)
+    json (2.5.1)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
