@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: bundler
+    versions:
+    - 2.2.10
+    - 2.2.11
+    - 2.2.12
+    - 2.2.13
+    - 2.2.14
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
